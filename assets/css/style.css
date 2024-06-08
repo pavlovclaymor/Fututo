@@ -91,13 +91,10 @@ body{
     }
 }
 
-@media screen  and (max-width: 750px){
-    .main{
-        width:750px;
-        
-        .container {
-            width: 100px;
-        }
-    }
+@media screen and (max-width:750px){
+   .main{
+    transition: 0.5s;
+    display: grid;
+   }
 }
 
